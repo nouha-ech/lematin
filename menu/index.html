@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>LE MATIN.MA</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="logo">
+        <img src="/menu/matin.png" alt="logo" />
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">ECONOMIE</a></li>
+        <li><a href="#">MONDE</a></li>
+        <li><a href="#">CULTURE</a></li>
+        <li><a href="#">REGION</a></li>
+        <li><a href="#">SOCIETE</a></li>
+        <li><a href="#">EMPLOI</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+
+      <h1>LE MATIN.ma</h1>
+
+      <p>
+        Restez informés de l'actualité en continu!
+      </p>
+
+      <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <div class="container">
+      <h2>Baisse des transactions immobilières au Maroc au 1er trimestre 2024</h2>
+      <p>
+        Alors que les prix ont augmenté de 0,8%, le nombre de transactions immobilières a reculé de 3,1% au 1er trimestre 2024 par rapport à la même période en 2023. Des baisses plus prononcées ont été enregistrées sur certains segments et dans certaines villes.
+      </p>
+      <br><br>
+      <img src="/menu/318433.webp" alt="img">
+      <br><br>
+      <p>
+        L’indice des prix des actifs immobiliers, calculé par Bank Al-Maghrib et l’Agence nationale de la conservation foncière, fait ressortir pour le 1er trimestre 2024, une hausse annuelle de 0,7% des prix des biens résidentiels, avec une augmentation de 0,8% pour les appartements et une quasi-stagnation pour les maisons et les villas.
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat eaque
+        delectus explicabo qui reprehenderit? Aspernatur ad similique minima
+        accusamus maiores accusantium libero autem iusto reiciendis ullam
+        impedit esse quibusdam, deleniti laudantium rerum beatae, deserunt nemo
+        neque, obcaecati exercitationem sit. Earum.
+      </p>
+<p> Il montre également une hausse de 1,2% des prix du foncier et un surplace pour l’immobilier professionnel, cachant une baisse de 1,5% des prix des locaux commerciaux et une hausse de 6,5% de l’immobilier de bureau.</p>
+      <p>
+        En revanche, les transactions ont baissé de 3,1% dans le résidentiel, avec un recul de 2,2% pour les appartements, de 13,7% pour les maisons et de 21,6% pour les villas. Sur les autres segments, les transactions ont augmenté de 3,6% sur le foncier, tandis qu’elles ont chuté de 14,8% pour l’immobilier professionnel (-16,3% pour les locaux commerciaux et -7,5% pour les bureaux).
+      </p>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>S'abonner</h3>
+        </div>
+        <div class="modal-content">
+          <p>Inscrivez-vous à notre newsletter</p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Nom</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="entrez votre nom"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="entrez votre email"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password">Mot de passe</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="entrez votre mot de passe"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password2">Confirmer votre mot de passe</label>
+              <input
+                type="password"
+                id="password2"
+                placeholder="confirmez votre mot de passe"
+                class="form-input"
+              />
+            </div>
+            <input type="submit" value="S'abonner" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="logic.js"></script>
+  </body>
+</html>
